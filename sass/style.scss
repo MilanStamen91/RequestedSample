@@ -259,6 +259,10 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
     /*text-decoration: none;*/
     }
 }
+    #pic {
+    padding-left: 0px;
+    padding-right: 0px;
+    }
     .parent:hover .child, .parent:focus .child {
         -ms-transform: scale(1.2);
         -moz-transform: scale(1.2);
