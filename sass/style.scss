@@ -77,8 +77,8 @@ body {
 }
 .navbar {
     color: rgb(0, 0, 0);
-    font-size: 40px;
-    word-spacing: 15px;
+    font-size: 0px;
+    
     
     a img {
         width: 120px;
@@ -143,18 +143,18 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 }
 
 .icon-bar {
-    width: 125px;
+    width: 150px;
     height: 100%;;
     background-color: transparent;
 
     a {
     display: block;
     text-align: center;
-    padding: 16px;
+    padding: 20px;
     transition: all 0.3s ease;
     color: white;
-    font-size: 36px;
-    padding-bottom: 30px;
+    font-size: 28px;
+    padding-bottom: 35px;
     }
 
     a:hover {
@@ -168,21 +168,22 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 }
 
 .goup {
-    bottom: 200px;;
+    bottom: 170px;
+
 }
 .icon-bar1 {
-    width: 125px;
+    width: 150px;
     height: 100%;
     background-color: transparent;
 
     a {
     display: block;
     text-align: center;
-    padding: 16px;
+    padding: 20px;
     transition: all 0.3s ease;
     color: white;
-    font-size: 36px;
-    padding-bottom: 30px;
+    font-size: 28px;
+    padding-bottom: 35px;
     }
 
     a:hover {
@@ -219,3 +220,83 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
     color: #000;
 }
 .dropdown:hover .dropdown-content {display: block;}
+
+// slike zoom in
+
+.parent {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    .child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    }
+    /* Several different images */
+    .bg-one {background-image: url(https://media.timeout.com/images/101602611/image.jpg);}
+    a {
+    display: none;
+    font-size: 35px;
+    color: #ffffff !important;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    /*text-decoration: none;*/
+    }
+}
+    .parent:hover .child, .parent:focus .child {
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    
+    .parent:hover .child:before, .parent:focus .child:before {
+        display: block;
+    }
+    
+    .parent:hover a, .parent:focus a {
+        display: block;
+    }
+    
+    .child:before {
+        content: "";
+        display: none;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(52,73,94,0.75);
+    }
+    
+    /* Media Queries */
+    @media screen and (max-width: 960px) {
+        .parent {width: 100%; margin: 20px 0px}
+            .wrapper {padding: 20px 20px;}
+    }
+
+
+
+
+
+
+
+
+
