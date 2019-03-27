@@ -6,10 +6,12 @@ body {
     padding: 0;
 }
 
+// Background image
+
 .img-container {
     width: 100%;
     position: relative;
-    height: 100vh;
+    height: 1150px;
     overflow: hidden;
     
     img {
@@ -22,12 +24,14 @@ body {
     }
 }
 
+// Text in Middle
+
 .wrapper-text {
     position: inherit;
-    top: 230px;
+    top: 100px;
     width: 100%;
-    height: 300px;
-    background: rgba(0, 0, 0, 0.55);
+    height: 700px;
+    background: rgba(0, 0, 0, 0.3);
     color: #fff;
     padding: 3%;
     text-align: center;
@@ -52,7 +56,12 @@ body {
         display: inline-block;
         margin-top: 15px;
     }
+    #box {
+        top:150px;
+    }
 }
+
+// Moving in to background image 
 
 @keyframes animate {
     0% {
@@ -75,6 +84,10 @@ body {
         transform: scale(1.3);
     }
 }
+
+
+// Navbar
+
 .navbar {
     color: rgb(0, 0, 0);
     font-size: 0px;
@@ -142,6 +155,12 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
     width: 100%;
 }
 
+// Icons on side
+#icon {
+    position: absolute;
+    left: 20px;
+    width: 300px;;
+}
 .icon-bar {
     width: 150px;
     height: 100%;;
@@ -167,9 +186,12 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
     
 }
 
-.goup {
-    bottom: 170px;
+// Right side icons
 
+#icon1 {
+    position: absolute;
+    right: -100px;
+    width: 300px;
 }
 .icon-bar1 {
     width: 150px;
