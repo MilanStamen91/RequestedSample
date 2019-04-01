@@ -25,7 +25,12 @@ body {
 }
 
 // Text in Middle
-
+#size {
+    @media (max-width: 1400px) {
+        width: 60%;
+        margin:auto;
+    }
+}
 .wrapper-text {
     position: inherit;
     top: 100px;
@@ -35,6 +40,9 @@ body {
     color: #fff;
     padding: 3%;
     text-align: center;
+    @media (max-width: 575.98px) {
+        height: 850px;
+    }
        
     h2 {
         font-family: Poppins 700;
@@ -58,6 +66,9 @@ body {
     }
     #box {
         top:150px;
+        @media (max-width: 575.98px) {
+            top:0px;
+        }
     }
 }
 
@@ -159,7 +170,11 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 #icon {
     position: absolute;
     left: 20px;
-    width: 300px;;
+    width: 300px;
+    bottom: 380px;
+    @media (max-width: 575.98px) {
+        bottom:30px;
+    }
 }
 .icon-bar {
     width: 150px;
@@ -192,6 +207,10 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
     position: absolute;
     right: -100px;
     width: 300px;
+    bottom: 380px;
+    @media (max-width: 575.98px) {
+        bottom:30px;
+    }
 }
 .icon-bar1 {
     width: 150px;

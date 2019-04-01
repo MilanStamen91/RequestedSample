@@ -20,6 +20,13 @@ body {
   -o-animation: animate 50s;
 }
 
+@media (max-width: 1400px) {
+  #size {
+    width: 60%;
+    margin: auto;
+  }
+}
+
 .wrapper-text {
   position: inherit;
   top: 100px;
@@ -29,6 +36,11 @@ body {
   color: #fff;
   padding: 3%;
   text-align: center;
+}
+@media (max-width: 575.98px) {
+  .wrapper-text {
+    height: 850px;
+  }
 }
 .wrapper-text h2 {
   font-family: Poppins 700;
@@ -50,6 +62,11 @@ body {
 }
 .wrapper-text #box {
   top: 150px;
+}
+@media (max-width: 575.98px) {
+  .wrapper-text #box {
+    top: 0px;
+  }
 }
 
 @-webkit-keyframes animate {
@@ -139,6 +156,12 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   position: absolute;
   left: 20px;
   width: 300px;
+  bottom: 380px;
+}
+@media (max-width: 575.98px) {
+  #icon {
+    bottom: 30px;
+  }
 }
 
 .icon-bar {
@@ -167,6 +190,12 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   position: absolute;
   right: -100px;
   width: 300px;
+  bottom: 380px;
+}
+@media (max-width: 575.98px) {
+  #icon1 {
+    bottom: 30px;
+  }
 }
 
 .icon-bar1 {
