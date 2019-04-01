@@ -424,6 +424,8 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
             padding: 15px 19px 26px 16px; 
             display:inline-block; 
             line-height: 1.2; 
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
         }
         .team-img:hover { 
             -webkit-transform: scale(1.05);
@@ -444,6 +446,20 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
         .team-block.active .social-media { 
             opacity: 1; 
             transition: 2s ease; 
+        }
+        .social-icon-box:hover { 
+            background-color: lightblue; 
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            transform: scale(1.2);
+            -webkit-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -ms-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out; 
+           
         }
     }
 
