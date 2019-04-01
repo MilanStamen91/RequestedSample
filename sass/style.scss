@@ -394,6 +394,59 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
       }
     }
 
+    // Our Team section
+
+    .team {
+        .team-img { 
+            margin-bottom: 20px;
+            position: relative; 
+        }
+        .team-img img { 
+            width: 90%;
+            -webkit-border-radius: 30px;
+            border-radius: 30px;
+        }
+        .team-img img.border { 
+            border-color: #fff !important; 
+        }
+        .social-media { 
+            position: absolute; 
+            bottom: 36px; 
+            opacity: 0; 
+        }
+        .social-icon-box { 
+            margin-bottom: 5px; 
+            background-color: #193e6b; 
+            width: 46px; 
+            height: 46px; 
+            color: #ffffff; 
+            font-size: 16px; 
+            padding: 15px 19px 26px 16px; 
+            display:inline-block; 
+            line-height: 1.2; 
+        }
+        .team-img:hover { 
+            -webkit-transform: scale(1.05);
+            -moz-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            -o-transform: scale(1.05);
+            transform: scale(1.05);
+            -webkit-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -ms-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out; 
+        }
+        .team-img:hover .social-media { 
+            opacity: 1; 
+            transition: 2s ease; 
+        }
+        .team-block.active .social-media { 
+            opacity: 1; 
+            transition: 2s ease; 
+        }
+    }
+
 
 
 
