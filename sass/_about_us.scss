@@ -1,3 +1,4 @@
+
 div.bord
 {
     margin: 0 auto;
@@ -7,7 +8,7 @@ div.bord
 
  a {
 
-    color: #FFF;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font: 20px Poppins;
     margin: 0px 10px;
@@ -18,3 +19,56 @@ div.bord
     }
 
 }
+
+.drp {
+    background-color: aquamarine;
+}
+
+.itm:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+#bt {
+    background-color: #0984e3;
+}
+
+.navm {
+    color: rgb(0, 0, 0);
+    font-size: 0px;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    
+    
+    a img {
+        width: 60px;
+        height: 60px;
+        top: 20px;
+    }
+    
+}
+
+.navm1 {
+    color: rgb(0, 0, 0);
+    font-size: 0px;
+    background-color: white;
+    height: 100px;
+
+    
+    a img {
+        width: 60px;
+        height: 60px;
+        top: 20px;
+    }
+    
+}
+
+.navm a:hover {
+    text-decoration: underline;
+    color: #81ecec;
+}
+// hover dropdown
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }

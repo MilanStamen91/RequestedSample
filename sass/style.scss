@@ -16,7 +16,7 @@ body {
 .img-container {
     width: 100%;
     position: relative;
-    height: 1150px;
+    height: 1250px;
     overflow: hidden;
 
     @media (max-width: 575.98px) {
@@ -42,7 +42,7 @@ body {
 }
 .wrapper-text {
     position: inherit;
-    top: 100px;
+    top: 315px;
     width: 100%;
     height: 700px;
     background: rgba(0, 0, 0, 0.3);
@@ -54,13 +54,11 @@ body {
     }
        
     h2 {
-        font-family: Poppins 700;
         font-size: 28px;
         margin: 10px 0;
         }
 
     p {
-        font-family: Roboto 500;
         font-size: 28px;
         background-size: 40px;
     }
@@ -106,76 +104,6 @@ body {
 }
 
 
-// Navbar
-
-.navbar {
-    color: rgb(0, 0, 0);
-    font-size: 0px;
-    
-    
-    a img {
-        width: 120px;
-        height: 100px;
-    }
-    
-    .image {
-        padding-bottom: 75px;
-        padding-left: 30px;
-    }
-}
-
-
-div.borderYtoX
-{
-    margin: 0 auto;
-	padding: 1em 3em;
-	text-align: center;
-
-
- a {
-
-    color: #FFF;
-    text-decoration: none;
-    font: 20px Poppins;
-    margin: 0px 10px;
-    padding: 10px 10px;
-    position: relative;
-    z-index: 0;
-    cursor: pointer;
-    }
-
- a:before, div.borderYtoX a:after
-    {
-    position: absolute;
-    opacity: 0.5;
-    height: 100%;
-    width: 2px;
-    content: '';
-    background: #FFF;
-    transition: all 0.3s;
-    }
-
- a:before
-    {
-    left: 0px;
-    top: 0px;
-    }
-
- a:after
-    {
-    right: 0px;
-    bottom: 0px;
-    }
-
- a:hover:before, a:hover:after
-    {
-    opacity: 1;
-    height: 2px;
-    width: 100%;
-    }
-}
-
-
 // Icons on side
 
 #sicon a {
@@ -186,7 +114,7 @@ div.borderYtoX
     position: absolute;
     left: 20px;
     width: 300px;
-    bottom: 320px;
+    bottom: 300px;
     @media (max-width: 575.98px) {
         bottom:-60px;
     }
@@ -227,7 +155,7 @@ div.borderYtoX
     position: absolute;
     right: -70px;
     width: 300px;
-    bottom: 320px;
+    bottom: 300px;
     @media (max-width: 575.98px) {
         bottom:-60px;
     }
@@ -504,11 +432,6 @@ div.borderYtoX
         }
     }
 
-// hover dropdown
-
-.dropdown:hover>.dropdown-menu {
-    display: block;
-  }
 
 
 
