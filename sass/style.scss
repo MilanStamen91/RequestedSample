@@ -6,6 +6,12 @@
     }
 }
 
+.text-white {
+    @media (max-width: 575.98px) {
+        font-size: 4.3px;
+    } 
+}
+
 body {
     margin: 0;
     padding: 0;
