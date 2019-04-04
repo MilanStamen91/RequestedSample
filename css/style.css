@@ -29,6 +29,11 @@ body {
   height: 1150px;
   overflow: hidden;
 }
+@media (max-width: 575.98px) {
+  .img-container {
+    height: 1200px;
+  }
+}
 .img-container img {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.678)), to(rgba(0, 0, 0, 0.815)));
   background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.815));
@@ -59,7 +64,7 @@ body {
 }
 @media (max-width: 575.98px) {
   .wrapper-text {
-    height: 850px;
+    height: 885px;
   }
 }
 .wrapper-text h2 {
@@ -85,7 +90,7 @@ body {
 }
 @media (max-width: 575.98px) {
   .wrapper-text #box {
-    top: 0px;
+    top: -15px;
   }
 }
 
@@ -166,15 +171,19 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   width: 100%;
 }
 
+#sicon a {
+  padding-bottom: 60px;
+}
+
 #icon {
   position: absolute;
   left: 20px;
   width: 300px;
-  bottom: 380px;
+  bottom: 320px;
 }
 @media (max-width: 575.98px) {
   #icon {
-    bottom: 30px;
+    bottom: -60px;
   }
 }
 
@@ -194,21 +203,21 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   padding-bottom: 35px;
 }
 .icon-bar a:hover {
-  background-color: #000;
-}
-.icon-bar .active {
-  background-color: #4CAF50;
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 #icon1 {
   position: absolute;
-  right: -100px;
+  right: -70px;
   width: 300px;
-  bottom: 380px;
+  bottom: 320px;
 }
 @media (max-width: 575.98px) {
   #icon1 {
-    bottom: 30px;
+    bottom: -60px;
   }
 }
 
@@ -218,7 +227,7 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   background-color: transparent;
 }
 .icon-bar1 a {
-  display: block;
+  display: table-caption;
   text-align: center;
   padding: 20px;
   -webkit-transition: all 0.3s ease;
@@ -228,7 +237,10 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   padding-bottom: 35px;
 }
 .icon-bar1 a:hover {
-  background-color: #000;
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .dropbtn {

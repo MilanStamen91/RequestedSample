@@ -18,6 +18,10 @@ body {
     position: relative;
     height: 1150px;
     overflow: hidden;
+
+    @media (max-width: 575.98px) {
+        height: 1200px;
+    }
     
     img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.815) );
@@ -46,7 +50,7 @@ body {
     padding: 3%;
     text-align: center;
     @media (max-width: 575.98px) {
-        height: 850px;
+        height: 885px;
     }
        
     h2 {
@@ -72,7 +76,7 @@ body {
     #box {
         top:150px;
         @media (max-width: 575.98px) {
-            top:0px;
+            top:-15px;
         }
     }
 }
@@ -173,13 +177,18 @@ div.borderYtoX
 
 
 // Icons on side
+
+#sicon a {
+    padding-bottom: 60px;
+}
+
 #icon {
     position: absolute;
     left: 20px;
     width: 300px;
-    bottom: 380px;
+    bottom: 320px;
     @media (max-width: 575.98px) {
-        bottom:30px;
+        bottom:-60px;
     }
 }
 .icon-bar {
@@ -198,24 +207,29 @@ div.borderYtoX
     }
 
     a:hover {
-    background-color: #000;
+        -webkit-transform: scale(1.15);
+        -moz-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+        -o-transform: scale(1.15);
+        transform: scale(1.15);
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out; 
     }
-
-    .active {
-    background-color: #4CAF50;
-    }
-    
+   
 }
 
 // Right side icons
 
 #icon1 {
     position: absolute;
-    right: -100px;
+    right: -70px;
     width: 300px;
-    bottom: 380px;
+    bottom: 320px;
     @media (max-width: 575.98px) {
-        bottom:30px;
+        bottom:-60px;
     }
 }
 .icon-bar1 {
@@ -223,8 +237,9 @@ div.borderYtoX
     height: 100%;
     background-color: transparent;
 
+
     a {
-    display: block;
+    display: table-caption;
     text-align: center;
     padding: 20px;
     transition: all 0.3s ease;
@@ -234,7 +249,16 @@ div.borderYtoX
     }
 
     a:hover {
-    background-color: #000;
+        -webkit-transform: scale(1.15);
+        -moz-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+        -o-transform: scale(1.15);
+        transform: scale(1.15);
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out; 
     }
     
 }
