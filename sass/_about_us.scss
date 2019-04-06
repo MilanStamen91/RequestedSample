@@ -57,3 +57,7 @@ div.bord
 .dropdown:hover>.dropdown-menu {
     display: block;
   }
+
+  #navbarDropdownMenuLink {
+    pointer-events : none;
+  }

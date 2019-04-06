@@ -48,6 +48,10 @@ div.bord a {
   display: block;
 }
 
+#navbarDropdownMenuLink {
+  pointer-events: none;
+}
+
 .social li a {
   color: white;
 }
