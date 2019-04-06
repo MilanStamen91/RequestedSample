@@ -48,7 +48,7 @@ div.bord a {
   display: block;
 }
 
-#navbarDropdownMenuLink {
+#navbarDropdownMenuLink1 {
   pointer-events: none;
 }
 
@@ -452,6 +452,11 @@ body {
   transform: scale(1.2);
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+}
+
+.contact_form {
+  position: relative;
+  top: 155px;
 }
 
 /*# sourceMappingURL=style.css.map */
