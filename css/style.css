@@ -48,6 +48,53 @@ div.bord a {
   display: block;
 }
 
+.filter-simple .button-group {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.filter-simple .filter-simple-button.hollow.is-active, .filter-simple .filter-simple-button.hollow:focus, .filter-simple .filter-simple-button.hollow:active {
+  background-color: blue;
+  color: white;
+}
+
+.button-group.round :first-child {
+  border-radius: 50px 0 0 50px;
+}
+.button-group.round :last-child {
+  border-radius: 0 50px 50px 0;
+}
+
+.column-block {
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.column-block img {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+.column-block img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+#people {
+  position: relative;
+  top: 170px;
+  max-width: 100%;
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/back1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  border: 1px solid black;
+}
+
+#galery {
+  position: relative;
+  top: 110px;
+}
+
 .social li a {
   color: white;
 }

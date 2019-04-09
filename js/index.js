@@ -1,15 +1,20 @@
-$(function () {
-    $('.click-nav > ul').toggleClass('no-js js');
-    $('.click-nav .js ul').hide();
-    $('.click-nav .js').hover(function(e) {
-      $('.click-nav .js ul').slideToggle(200);
-      $('.clicker').toggleClass('active');
-      e.stopPropagation();
-    });
-    $(document).click(function() {
-      if ($('.click-nav .js ul').is(':visible')) {
-        $('.click-nav .js ul', this).slideUp();
-        $('.clicker').removeClass('active');
-      }
-    });
-  });
+// People section
+
+// shows and hides filtered items
+$(".filter-simple-button").click(function() {
+  var value = $(this).attr('data-filter');
+  if(value === "all") {
+    $('.filter-simple-item').show('1000');
+  } else {
+    $(".filter-simple-item").not('.'+value).hide('3000');
+    $('.filter-simple-item').filter('.'+value).show('3000');
+  }
+});
+
+// changes active class on filter buttons
+$('.filter-simple-button').click(function () {
+  $(this).siblings().removeClass('is-active');
+  $(this).addClass('is-active');
+});
+
+

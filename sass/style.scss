@@ -1,5 +1,7 @@
 @import 'about_us.scss';
 
+@import 'people.scss';
+
 .social {
     li a {
         color: white;
@@ -247,6 +249,7 @@ body {
     }
     /* Several different images */
     .bg-one {background-image: url(https://media.timeout.com/images/101602611/image.jpg);}
+    
     a {
     display: none;
     font-size: 35px;
