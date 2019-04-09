@@ -1,3 +1,4 @@
+@charset "UTF-8";
 div.bord {
   margin: 0 auto;
   padding: 1em 3em;
@@ -46,6 +47,58 @@ div.bord a {
 
 .dropdown:hover > .dropdown-menu {
   display: block;
+}
+
+.about .row {
+  position: relative;
+  top: 140px;
+}
+.about .row img {
+  background-attachment: fixed;
+  position: relative;
+}
+
+.quotes {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px 0px 5px 0px;
+}
+
+.quotation {
+  font-size: 30px;
+  quotes: "“" "”" "‘" "’";
+  padding: 10px 20px;
+  line-height: 1.4;
+}
+.quotation footer {
+  margin: 0;
+  text-align: right;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.quotation:before {
+  content: open-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 30px;
+  color: #ccc;
+  font-size: 3em;
+}
+
+.quotation::after {
+  content: close-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: 10px;
+  position: relative;
+  top: 35px;
+  color: #ccc;
+  font-size: 3em;
 }
 
 .filter-simple .button-group {
