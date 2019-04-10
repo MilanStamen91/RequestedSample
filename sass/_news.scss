@@ -1,5 +1,14 @@
-#news {
+.news {
     position: relative;
-    bottom: 140px;
+    top: 140px;
+}
+
+#news .row .card:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
