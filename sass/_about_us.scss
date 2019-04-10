@@ -95,7 +95,6 @@ div.bord
   .quotation:before {
     content: open-quote;
     display: inline;
-    height: 0;
     line-height: 0;
     left: -10px;
     position: relative;
@@ -106,7 +105,6 @@ div.bord
   .quotation::after {
     content: close-quote;
     display: inline;
-    height: 0;
     line-height: 0;
     left: 10px;
     position: relative;
