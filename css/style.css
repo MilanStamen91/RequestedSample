@@ -149,6 +149,10 @@ div.bord {
   position: relative;
   top: 110px; }
 
+#news {
+  position: relative;
+  bottom: 140px; }
+
 .social li a {
   color: white; }
 
