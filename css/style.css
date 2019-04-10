@@ -40,11 +40,11 @@ div.bord {
 .dropdown:hover > .dropdown-menu {
   display: block; }
 
-.about .row {
+.about .m {
   position: relative;
   top: 140px; }
 
-.about .row img {
+.about .m img {
   background-attachment: fixed;
   position: relative; }
 
@@ -83,6 +83,14 @@ div.bord {
   top: 35px;
   color: #ccc;
   font-size: 3em; }
+
+.groups .card:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05); }
 
 .box:hover {
   background: #0984e3;
