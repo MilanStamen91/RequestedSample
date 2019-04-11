@@ -43,7 +43,7 @@
                   <a class="nav-link">|</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">AKDFocus Login </a>
+                  <a class="nav-link" href="#">AKD Focus Login </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link">|</a>
