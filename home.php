@@ -17,7 +17,7 @@
       <div id="icon" class="col-xl-6">
        <div class="icon-bar">
         <a href="#"><i class="fas fa-file-invoice-dollar"><br>Banking</i></a> 
-        <a href="./it.html"><i class="fas fa-satellite"><br>IT</i></a> 
+        <a href="it"><i class="fas fa-satellite"><br>IT</i></a> 
         <a href="#"><i class="fas fa-industry"><br>Corporate</i></a> 
         <a href="#"><i class="fas fa-atom"><br>Energy</i></a> 
       </div>
