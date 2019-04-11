@@ -133,10 +133,10 @@
   <div class="about conatiner-fluid">
     <div class="m row">
       <div class="col-lg-3">
-        <img src="./img/arc.jpg" width="100%" height="900px;">
+        <img src="./img/arc.jpg" width="100%" height="100%">
       </div>
       <div class="col-lg-6" style="background-color:lightblue;">
-        <h2 class="py-3 text-center">About IT</h2>
+        <h2 class="py-3 text-center">IT Services</h2>
         
         <div class="container">
           <div class="m row text-center">

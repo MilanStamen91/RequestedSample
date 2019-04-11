@@ -4,6 +4,11 @@
 @import 'news.scss';
 @import 'publication.scss';
 
+html {
+    margin: 0;
+    padding: 0;
+}
+
 .social {
     li a {
         color: white;

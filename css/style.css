@@ -169,6 +169,10 @@ div.bord {
   -ms-transform: scale(1.05);
   transform: scale(1.05); }
 
+html {
+  margin: 0;
+  padding: 0; }
+
 .social li a {
   color: white; }
 
