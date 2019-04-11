@@ -8,6 +8,6 @@ $loggedInUser->loadLoggedInUser();
 
 if( $loggedInUser->acc_type != 'admin' ) {
   Helper::addError('Admin role required to access requested page.');
-  header('Location: ./index.php');
+  header('Location: ../index.php');
   die();
 }
