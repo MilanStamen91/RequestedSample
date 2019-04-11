@@ -25,14 +25,9 @@ if( isset($_POST['btn_addPost']) ) {
 
   <div class="form-row">
   
-    <div class="form-group col-md-6">
+    <div class="form-group col-md-12">
       <label for="inputTitle">Title</label>
-      <input type="text" name="title" class="form-control" id="inputTitle" placeholder="Product title" require />
-    </div>
-    <div class="form-group col-md-6">
-      <label for="inputCategory">Category</label>
-      <select name="cat_id" class="form-control" id="inputCategory">
-      </select>
+      <input type="text" name="title" class="form-control" id="inputTitle" placeholder="Post title" require />
     </div>
 
   </div>
@@ -44,13 +39,13 @@ if( isset($_POST['btn_addPost']) ) {
       <input type="file" name="image" class="form-control-file" id="inputImage"  />
     </div>
     <div class="form-group col-md-6">
-      <label for="inputPrice">Date</label>
+      <label for="inputDate">Date</label>
 
       <div class="input-group">
         <div class="input-group-prepend">
-          <span class="input-group-text">RSD</span>
+          <span class="input-group-text">Date</span>
         </div>
-        <input type="number" name="price" class="form-control" id="inputPrice" step="0.01" placeholder="Product price" required />
+        <input type="date" name="date" class="form-control" id="inputDate" step="0.01" placeholder="Post Date" required />
       </div>
     </div>
 
@@ -59,7 +54,7 @@ if( isset($_POST['btn_addPost']) ) {
   <div class="form-row">
     <div class="form-group col-md-12">
       <label for="inputDescription">Description</label>
-      <textarea name="description" class="form-control" id="inputDescription" rows="3" placeholder="Product description..."></textarea>
+      <textarea name="description" class="form-control" id="inputDescription" rows="3" placeholder="Post description..."></textarea>
     </div>
   </div>
 
