@@ -17,7 +17,7 @@ if( isset($_POST['btn_addPost']) ) {
 
 ?>
 
-<!-- <?php include './header.layout.php'; ?> -->
+<?php include '../index.php'; ?>
 
 <h1 class="my-5">Add post</h1>
 
