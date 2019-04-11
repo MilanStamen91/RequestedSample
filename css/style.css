@@ -231,7 +231,7 @@ body {
     display: inline-block;
     margin-top: 15px; }
   .wrapper-text #box {
-    top: 150px; }
+    top: 150px !important; }
     @media (max-width: 575.98px) {
       .wrapper-text #box {
         top: -15px; } }

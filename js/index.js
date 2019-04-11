@@ -20,11 +20,11 @@ $('.filter-simple-button').click(function () {
 
 // Ajax nav
 $(document).ready(function(){
- $('#content').load('../index.php');
+ $('#cont').load('../index.php');
 
  $('ul#nav li a').click(function() {
   var page = $(this).attr('href');
-  $('#content').load('../'+page+'.php');
+  $('#cont').load('../' + page + '.php');
  });
 });
 
