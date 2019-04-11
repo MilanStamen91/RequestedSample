@@ -55,7 +55,7 @@
           </div>
           <div class="col-12 border border-primary">
             <nav class="navm navbar navbar-expand-xl">
-              <a class="nav-link" href="./index.html"
+              <a class="nav-link" href="index"
                 ><img src="./img/pravo_i_vaga.jpg"
               /></a>
               <button
@@ -76,25 +76,28 @@
               >
                 <form class="form-inline">
                   <div class="bord">
-                    <ul class="nav navbar-nav">
+                    <ul id="nav" class="nav navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="index">Home</a>
+                  </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./about_us.html" id="navbarDropdownMenuLink" 
+                            <a class="nav-link dropdown-toggle" href="about_us" id="navbarDropdownMenuLink" 
                                 aria-haspopup="true" aria-expanded="false">
                                 About Us
                             </a>
                             <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="itm dropdown-item" href="./our_history.html">Our History</a>
-                                <a class="itm dropdown-item" href="./our_promise.html">Our Promise</a>
+                                <a class="itm dropdown-item" href="our_history">Our History</a>
+                                <a class="itm dropdown-item" href="our_promise">Our Promise</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./service.html" id="navbarDropdownMenuLink" 
+                            <a class="nav-link dropdown-toggle" href="service" id="navbarDropdownMenuLink" 
                                 aria-haspopup="true" aria-expanded="false">
                                 Service
                             </a>
                             <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="itm dropdown-item" href="#">Banking</a>
-                                <a class="itm dropdown-item" href="./it.html">IT</a>
+                                <a class="itm dropdown-item" href="it">IT</a>
                                 <a class="itm dropdown-item" href="#">Corporate</a>
                                 <a class="itm dropdown-item" href="#">Energy</a>
                                 <a class="itm dropdown-item" href="#">Litigation</a>
@@ -103,17 +106,17 @@
                                 <a class="itm dropdown-item" href="#">Science</a>
                             </div>
                         </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./people.html">People</a>
+                        <li class="nav-item">
+                        <a class="nav-link" href="people">People</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="./news.html">News</a>
+                        <a class="nav-link" href="news">News</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="./careers.html">Careers</a>
+                        <a class="nav-link" href="careers">Careers</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
+                        <a class="nav-link" href="contact">Contact</a>
                       </li>
                     </ul>
                   </div>
@@ -133,16 +136,17 @@
         <img src="./img/arc.jpg" width="100%" height="100%">
       </div>
       <div class="col-lg-6" style="background-color:lightblue;">
-        <h2 class="py-3 text-center">About Us</h2>
+        <h2 class="py-3 text-center">Careers at AKD</h2>
 
       <div class="py-4">
-        <a href="./our_history.html"><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  Our History</button></a>
-          <a href="./our_promise.html"><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  Our Promise</button></a>
+        <a href=""><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i> AKD Graduate Program</button></a>
+          <a href=""><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i> AKD Current Opportunities</button></a>
       </div> 
+      <h5>Great colleagues, great clients, great work</h5>
        <p class="my-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium impedit doloremque distinctio, in delectus deleniti veniam molestiae iure possimus placeat, qui, recusandae vel veritatis debitis earum esse quidem ullam accusantium.</p>
-      
+      <h5>Developing our legal experts</h5>
       <p class="my-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas est esse sapiente iusto dolores, enim nesciunt fuga debitis cupiditate cumque dolore sequi placeat doloremque. Perspiciatis fuga unde vel hic minus!</p>
-
+      <h5>Work/life balance</h5>
       <p class="my-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit expedita reprehenderit ducimus officia velit modi, earum ipsum dolor et quisquam culpa est doloremque, omnis natus amet numquam dolorum libero corporis.</p>
      
     <div class="quotes">

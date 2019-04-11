@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="./css/all.min.css" />
     <link rel="stylesheet" href="./css/animate.min.css" />
     <link rel="stylesheet" href="css/aos.css" />
-    <link rel="stylesheet" href="css/foundation/foundation.min.css" />
   </head>
   <body>
     <!-- Navbar -->
@@ -56,7 +55,7 @@
           </div>
           <div class="col-12 border border-primary">
             <nav class="navm navbar navbar-expand-xl">
-              <a class="nav-link" href="./index.html"
+              <a class="nav-link" href="index"
                 ><img src="./img/pravo_i_vaga.jpg"
               /></a>
               <button
@@ -77,25 +76,28 @@
               >
                 <form class="form-inline">
                   <div class="bord">
-                    <ul class="nav navbar-nav">
+                    <ul id="nav" class="nav navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="index">Home</a>
+                      </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./about_us.html" id="navbarDropdownMenuLink" 
+                            <a class="nav-link dropdown-toggle" href="about_us" id="navbarDropdownMenuLink" 
                                 aria-haspopup="true" aria-expanded="false">
                                 About Us
                             </a>
                             <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="itm dropdown-item" href="./our_history.html">Our History</a>
-                                <a class="itm dropdown-item" href="./our_promise.html">Our Promise</a>
+                                <a class="itm dropdown-item" href="our_history">Our History</a>
+                                <a class="itm dropdown-item" href="our_promise">Our Promise</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./service.html" id="navbarDropdownMenuLink" 
+                            <a class="nav-link dropdown-toggle" href="service" id="navbarDropdownMenuLink" 
                                 aria-haspopup="true" aria-expanded="false">
                                 Service
                             </a>
                             <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="itm dropdown-item" href="#">Banking</a>
-                                <a class="itm dropdown-item" href="./it.html">IT</a>
+                                <a class="itm dropdown-item" href="it">IT</a>
                                 <a class="itm dropdown-item" href="#">Corporate</a>
                                 <a class="itm dropdown-item" href="#">Energy</a>
                                 <a class="itm dropdown-item" href="#">Litigation</a>
@@ -105,16 +107,16 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="./people.html">People</a>
+                        <a class="nav-link" href="people">People</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="./news.html">News</a>
+                        <a class="nav-link" href="news">News</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="./careers.html">Careers</a>
+                        <a class="nav-link" href="careers">Careers</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
+                        <a class="nav-link" href="contact">Contact</a>
                       </li>
                     </ul>
                   </div>
@@ -126,56 +128,43 @@
       </div>
     </section>
 
-    <section>
-      <div id="people" class="container-flex text-center">
-        <h1 class="py-4">About our People</h1>
+<!-- About -->
+<section>
+  <div class="about conatiner-fluid">
+    <div class="m row">
+      <div class="col-lg-3">
+        <img src="./img/arc.jpg" width="100%" height="100%">
       </div>
-    </section>
-
-    <!-- People section -->
-
-    <section id="galery" class="py-5 container-fluid">
-        <div class="py-5 button-group round text-center">
-          <button class="button hollow filter-simple-button is-active" data-filter="all">All</button>
-          <button class="button hollow filter-simple-button" data-filter="space">Space</button>
-          <button class="button hollow filter-simple-button" data-filter="animals">Animals</button>
-          <button class="button hollow filter-simple-button" data-filter="rt">Box</button>
-          <button class="button hollow filter-simple-button" data-filter="nature">Nature</button>
-        </div>
+      <div class="col-lg-6" style="background-color:lightblue;">
+        <h2 class="py-3">Our History</h2>
+        <hr style="background-color:black; border-width: 5px;">
+       <p class="my-4 text-justify ">At AKD Legal, we believe in delivering on our promises. When you deal with us you will receive the highest quality advice from a trusted team of people, committed to the following values and behaviours:<p>
+       
+       <p class="my-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium impedit doloremque distinctio, in delectus deleniti veniam molestiae iure possimus placeat, qui, recusandae vel veritatis debitis earum esse quidem ullam accusantium.</p>
       
-        <div class="row small-up-2 medium-up-3 large-up-4 justify-content-center">
-          <div class="column column-block filter-simple-item space">
-          <a href=""><img src="https://spaceholder.cc/350x350" alt="" /></a>
-          </div>
-          <div class="column column-block filter-simple-item nature">
-            <a href=""><img src="https://placeimg.com/350/350/nature" alt="" /></a>
-          </div>
-          <div class="column column-block filter-simple-item animals">
-            <a href=""><img src="https://placeimg.com/350/350/animals" alt="" /></a>
-          </div>
-          <div class="column column-block filter-simple-item nature">
-            <a href=""><img src="https://placeimg.com/350/350/nature" alt="" /></a>
-          </div>
-          <div class="column column-block filter-simple-item rt">
-            <a href=""><img src="https://placeimg.com/350/350/nature" alt="" /></a>
-          </div>
-          <div class="column column-block filter-simple-item rt">
-            <a href=""><img src="https://placeimg.com/350/350/animals" alt="" /></a>
-          </div>
-          <div class="column column-block filter-simple-item nature">
-            <a href=""><img src="https://placeimg.com/350/350/nature" alt="" /></a>
-          </div>
-          <div class="column column-block filter-simple-item animals">
-            <a href=""><img src="https://placeimg.com/350/350/animals" alt="" /></a>
-          </div>
-          <div class="column column-block filter-simple-item space">
-            <a href=""><img src="https://spaceholder.cc/350x350" alt="" /></a>
-          </div>
-          <div class="column column-block filter-simple-item space">
-            <a href=""><img src="https://spaceholder.cc/350x350" alt="" /></a>
-          </div>
-        </div>
-      </section>
+      <p class="my-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas est esse sapiente iusto dolores, enim nesciunt fuga debitis cupiditate cumque dolore sequi placeat doloremque. Perspiciatis fuga unde vel hic minus!</p>
+
+      <p class="my-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit expedita reprehenderit ducimus officia velit modi, earum ipsum dolor et quisquam culpa est doloremque, omnis natus amet numquam dolorum libero corporis.</p>
+     
+    <div class="quotes">
+      <blockquote><p class="py-4 quotation"> 
+        No doubt one may quote history to support any cause, as the devil quotes scripture.</p>
+      <footer>— Learned Hand</footer>
+      </blockquote> 
+     </div>
+      
+     <p class="my-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit expedita reprehenderit ducimus officia velit modi, earum ipsum dolor et quisquam culpa est doloremque, omnis natus amet numquam dolorum libero corporis.</p>
+     
+     <p class="my-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit expedita reprehenderit ducimus officia velit modi, earum ipsum dolor et quisquam culpa est doloremque, omnis natus amet numquam dolorum libero corporis.</p>
+     
+  
+      </div>
+      <div class="col-lg-3" style="background-color: lightblue;">
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- Footer   -->
 
@@ -204,7 +193,6 @@
     <script src="./js/bootstrap.bundle.js"></script>
     <script src="./js/index.js"></script>
     <script src="./js/aos.js"></script>
-    <script src="./js/foundation/foundation.min.js"></script>
     <script>
         AOS.init();
         </script>
