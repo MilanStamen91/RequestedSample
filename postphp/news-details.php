@@ -1,10 +1,19 @@
+
+<?php require_once './Posts.class.php'; ?>
+
 <?php
 
-require_once './Posts.class.php';
+if( !isset($_GET['id']) ) {
+  header("Location: ./news.php");
+  die();
+}
 
-$p = new Posts();
+$post = new Posts($_GET['id']);
 
-$post = $p->all();
+if( !$post->created_at || $post->deleted_at ) {
+  header("Location: ./news.php");
+  die();
+}  
 
 
 ?>
@@ -148,25 +157,28 @@ $post = $p->all();
       <div class="col-lg-6" style="background-color:lightblue;">
         <h2 class="py-3 text-center">AKD News</h2>
         <div id="news" class="container">
-          <!-- First row -->
-          <div class="row">
 
-          <?php foreach($post as $posts) { ?>
-            <div class="my-3 col-xs-12 col-md-6">
-              <!-- Card -->
-              <article class="card">
-                <img class="card-img-top img-responsive" src="<?php echo $posts->img; ?>" alt="Deer in nature" />
-                <div class="card-block">
-                  <h4 class="m-3 card-title"><?php echo $posts->title; ?></h4>
-                  <h6 class="m-3 text-muted"><?php echo $posts->date; ?></h6>
-                  <p class="m-3 card-text text-justify" style="height:150px;max-width:100%;overflow:auto;"><?php echo $posts->description; ?></p>
-                  <a href="./news-details.php?id=<?php echo $posts->id; ?>" class="m-3 p-2 btn btn-primary float-right">Read more</a>
-                </div>
-              </article><!-- .end Card -->
-            </div> 
-            <?php } ?>
-           
-          </div><!-- .end Second row -->
+<div class="row">
+<h1 class="my-5"><?php echo $post->title; ?></h1>
+  <div class="col-md-5">
+    <img src="<?php echo $post->img; ?>" class="products-details-img" />
+  </div>
+
+  <div class="col-md-7">
+    <h3 class="mb-5">Description</h3>
+    <p class="mb-5">
+    <?php echo $post->description; ?>
+    </p>
+
+    <div class="d-flex flex-column align-items-end">
+      <h5 class="mt-5"><?php echo $post->date; ?> Date</h5>
+
+    </div>
+  </div>
+
+</div>
+
+</div><!-- .end Second row -->
         </div>
 
       </div>
@@ -209,3 +221,4 @@ $post = $p->all();
         </script>
   </body>
 </html>
+
