@@ -15,11 +15,11 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/bootstrap.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/all.min.css" />
-    <link rel="stylesheet" href="./css/animate.min.css" />
-    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/animate.min.css" />
+    <link rel="stylesheet" href="../css/aos.css" />
   </head>
   <body>
     <!-- Navbar -->
@@ -57,7 +57,7 @@
           <div class="col-12 border border-primary">
             <nav class="navm navbar navbar-expand-xl">
               <a class="nav-link" href="index"
-                ><img src="./img/pravo_i_vaga.jpg"
+                ><img src="../img/pravo_i_vaga.jpg"
               /></a>
               <button
                 id="bt"
@@ -134,7 +134,7 @@
   <div class="news conatiner-fluid">
     <div class="row">
       <div class="col-lg-3">
-        <img src="./img/arc.jpg" width="100%" height="100%">
+        <img src="../img/arc.jpg" width="100%" height="100%">
       </div>
       <div class="col-lg-6" style="background-color:lightblue;">
         <h2 class="py-3 text-center">AKD News</h2>
@@ -246,11 +246,11 @@
   </div>
 </footer>
 
-    <script src="./js/jquery-3.3.1.min.js"></script>
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/bootstrap.bundle.js"></script>
-    <script src="./js/index.js"></script>
-    <script src="./js/aos.js"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/aos.js"></script>
     <script>
         AOS.init();
         </script>
