@@ -15,7 +15,6 @@ class Posts {
 
   function __construct($id = null) {
     $this->db = require './db.inc.php';
-    require_once './User.class.php';
 
     $this->post_images_directory = "./img/posts/";
     $this->max_image_size = 5 * 1024 * 1024;
@@ -56,23 +55,16 @@ class Posts {
   public function insert() {
     $stmt_insert = $this->db->prepare("
       INSERT INTO `posts`
-      (`title`, `description`, `date`)
+      (`id`, `title`, `description`, `date`)
       VALUES
-      (:title, :description, :date)
+      (:id, :title, :description, :date)
     ");
     $inserted = $stmt_insert->execute([
+      ':id' => $this->id,
       ':title' => $this->title,
       ':description' => $this->description,
       ':date' => $this->date
     ]);
-
-    if( $inserted ) {
-      $this->id = $this->db->lastInsertId();
-      $this->loadFromDb();
-      $this->handleImageUpload();
-    }
-
-    return $inserted;
   }
 
   public function update() {
