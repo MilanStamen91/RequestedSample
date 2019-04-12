@@ -1,3 +1,11 @@
+<?php
+
+require_once './postphp/Posts.class.php';
+
+$posts = new Posts();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -140,7 +148,21 @@
         <div id="news" class="container">
           <!-- First row -->
           <div class="row">
+          <?php foreach($posts as $post) { ?>
             <div class="my-3 col-xs-12 col-md-6">
+              <!-- Card -->
+              <article class="card">
+                <img class="card-img-top img-responsive" src="<?php echo $post->img; ?>" alt="Deer in nature" />
+                <div class="card-block">
+                  <h4 class="m-3 card-title"><?php echo $post->title; ?></h4>
+                  <h6 class="m-3 text-muted"><?php echo $post->date; ?></h6>
+                  <p class="m-3 card-text text-justify"><?php echo $post->description; ?></p>
+                  <a href="./postphp/post-details.php?id=<?php echo $post->id; ?> class="m-3 p-2 btn btn-primary float-right">Read more</a>
+                </div>
+              </article><!-- .end Card -->
+            </div> 
+            <?php } ?>
+            <!-- <div class="my-3 col-xs-12 col-md-6">
               <!-- Card -->
               <article class="card">
                 <img class="card-img-top img-responsive" src="https://snap-photos.s3.amazonaws.com/img-thumbs/960w/1U2EGZ07GU.jpg" alt="Deer in nature" />
@@ -199,19 +221,7 @@
                   <a href="#" class="m-3 p-2 btn btn-primary float-right">Read more</a>
                 </div>
               </article><!-- .end Card -->
-            </div> 
-            <div class="my-3 col-xs-12 col-md-6">
-              <!-- Card -->
-              <article class="card">
-                <img class="card-img-top img-responsive" src="https://snap-photos.s3.amazonaws.com/img-thumbs/960w/1U2EGZ07GU.jpg" alt="Deer in nature" />
-                <div class="card-block">
-                  <h4 class="m-3 card-title">Animal Farm</h4>
-                  <h6 class="m-3 text-muted">25.03.2019</h6>
-                  <p class="m-3 card-text text-justify">Tired of their servitude to man, a group of farm animals revolt and establish their own society, only to be betrayed into worse servitude by their leaders, the pigs. This satire addresses the communist philosophy the Soviet Union.</p>
-                  <a href="#" class="m-3 p-2 btn btn-primary float-right">Read more</a>
-                </div>
-              </article><!-- .end Card -->
-            </div>           
+            </div>            -->
           </div><!-- .end Second row -->
         </div>
 
