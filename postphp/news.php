@@ -159,7 +159,7 @@ $post = $p->all();
                 <div class="card-block">
                   <h4 class="m-3 card-title"><?php echo $posts->title; ?></h4>
                   <h6 class="m-3 text-muted"><?php echo $posts->date; ?></h6>
-                  <p class="m-3 card-text text-justify" style="height:150px;width:400px;overflow:auto;">><?php echo $posts->description; ?></p>
+                  <p class="m-3 card-text text-justify" style="height:150px;width:400px;overflow:auto;"><?php echo $posts->description; ?></p>
                   <a href="#" class="m-3 p-2 btn btn-primary float-right">Read more</a>
                 </div>
               </article><!-- .end Card -->
