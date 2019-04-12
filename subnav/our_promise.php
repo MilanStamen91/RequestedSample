@@ -14,11 +14,11 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/bootstrap.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/all.min.css" />
-    <link rel="stylesheet" href="./css/animate.min.css" />
-    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/animate.min.css" />
+    <link rel="stylesheet" href="../css/aos.css" />
   </head>
   <body>
     <!-- Navbar -->
@@ -56,7 +56,7 @@
           <div class="col-12 border border-primary">
             <nav class="navm navbar navbar-expand-xl">
               <a class="nav-link" href="index"
-                ><img src="./img/pravo_i_vaga.jpg"
+                ><img src="../img/pravo_i_vaga.jpg"
               /></a>
               <button
                 id="bt"
@@ -74,30 +74,30 @@
                 class="collapse navbar-collapse justify-content-end"
                 id="navbarSupportedContent"
               >
-                <form class="form-inline">
+              <form class="form-inline">
                   <div class="bord">
                     <ul id="nav" class="nav navbar-nav">
                     <li class="nav-item">
-                    <a class="nav-link" href="index">Home</a>
+                    <a class="nav-link" href="../index">Home</a>
                       </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="about_us" id="navbarDropdownMenuLink" 
+                            <a class="nav-link dropdown-toggle" href="../about_us" id="navbarDropdownMenuLink" 
                                 aria-haspopup="true" aria-expanded="false">
                                 About Us
                             </a>
                             <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="itm dropdown-item" href="our_history">Our History</a>
-                                <a class="itm dropdown-item" href="our_promise">Our Promise</a>
+                                <a class="itm dropdown-item" href="./our_history">Our History</a>
+                                <a class="itm dropdown-item" href="./our_promise">Our Promise</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="service" id="navbarDropdownMenuLink" 
+                            <a class="nav-link dropdown-toggle" href="../service" id="navbarDropdownMenuLink" 
                                 aria-haspopup="true" aria-expanded="false">
                                 Service
                             </a>
                             <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="itm dropdown-item" href="banking">Banking</a>
-                                <a class="itm dropdown-item" href="it">IT</a>
+                                <a class="itm dropdown-item" href="./banking">Banking</a>
+                                <a class="itm dropdown-item" href="./it">IT</a>
                                 <a class="itm dropdown-item" href="#">Corporate</a>
                                 <a class="itm dropdown-item" href="#">Energy</a>
                                 <a class="itm dropdown-item" href="#">Litigation</a>
@@ -107,16 +107,16 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="people">People</a>
+                        <a class="nav-link" href="../people">People</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="./postphp/news">News</a>
+                        <a class="nav-link" href="../postphp/news">News</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="careers">Careers</a>
+                        <a class="nav-link" href="../careers">Careers</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="contact">Contact</a>
+                        <a class="nav-link" href="../contact">Contact</a>
                       </li>
                     </ul>
                   </div>
@@ -133,7 +133,7 @@
   <div class="about conatiner-fluid">
     <div class="m row">
       <div class="col-lg-3">
-        <img src="./img/arc.jpg" width="100%" height="100%">
+        <img src="../img/arc.jpg" width="100%" height="100%">
       </div>
       <div class="col-lg-6" style="background-color:lightblue; height:2000px;">
         <h2 class="py-3">Our Promise To You</h2>
@@ -144,7 +144,7 @@
        <div class="card mb-3" style="max-width: 950px;">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="./img/arc.jpg" height="270px" class="p-3 card-img" alt="...">
+            <img src="../img/arc.jpg" height="270px" class="p-3 card-img" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -163,7 +163,7 @@
       <div class="card mb-3" style="max-width: 950px;">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="./img/arc.jpg" height="370px" class="p-3 card-img" alt="...">
+            <img src="../img/arc.jpg" height="370px" class="p-3 card-img" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -183,7 +183,7 @@
       <div class="card mb-3" style="max-width: 950px;">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="./img/arc.jpg" height="310px" class="p-3 card-img" alt="...">
+            <img src="../img/arc.jpg" height="310px" class="p-3 card-img" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -202,7 +202,7 @@
       <div class="card mb-3" style="max-width: 950px;">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="./img/arc.jpg" height="300px" class="p-3 card-img" alt="...">
+            <img src="../img/arc.jpg" height="300px" class="p-3 card-img" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -221,7 +221,7 @@
       <div class="card mb-3" style="max-width: 950px;">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="./img/arc.jpg" height="280px" class="p-3 card-img" alt="...">
+            <img src="../img/arc.jpg" height="280px" class="p-3 card-img" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -268,11 +268,11 @@
   </div>
 </footer>
 
-    <script src="./js/jquery-3.3.1.min.js"></script>
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/bootstrap.bundle.js"></script>
-    <script src="./js/index.js"></script>
-    <script src="./js/aos.js"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/aos.js"></script>
     <script>
         AOS.init();
         </script>

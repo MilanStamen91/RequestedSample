@@ -14,11 +14,11 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/bootstrap.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/all.min.css" />
-    <link rel="stylesheet" href="./css/animate.min.css" />
-    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/animate.min.css" />
+    <link rel="stylesheet" href="../css/aos.css" />
   </head>
   <body>
     <!-- Navbar -->
@@ -55,8 +55,8 @@
           </div>
           <div class="col-12 border border-primary">
             <nav class="navm navbar navbar-expand-xl">
-              <a class="nav-link" href="index"
-                ><img src="./img/pravo_i_vaga.jpg"
+              <a class="nav-link" href="../index"
+                ><img src="../img/pravo_i_vaga.jpg"
               /></a>
               <button
                 id="bt"
@@ -78,26 +78,26 @@
                   <div class="bord">
                     <ul id="nav" class="nav navbar-nav">
                     <li class="nav-item">
-                    <a class="nav-link" href="index">Home</a>
+                    <a class="nav-link" href="../index">Home</a>
                       </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="about_us" id="navbarDropdownMenuLink" 
+                            <a class="nav-link dropdown-toggle" href="../about_us" id="navbarDropdownMenuLink" 
                                 aria-haspopup="true" aria-expanded="false">
                                 About Us
                             </a>
                             <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="itm dropdown-item" href="our_history">Our History</a>
-                                <a class="itm dropdown-item" href="our_promise">Our Promise</a>
+                                <a class="itm dropdown-item" href="./our_history">Our History</a>
+                                <a class="itm dropdown-item" href="./our_promise">Our Promise</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="service" id="navbarDropdownMenuLink" 
+                            <a class="nav-link dropdown-toggle" href="../service" id="navbarDropdownMenuLink" 
                                 aria-haspopup="true" aria-expanded="false">
                                 Service
                             </a>
                             <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="itm dropdown-item" href="banking">Banking</a>
-                                <a class="itm dropdown-item" href="it">IT</a>
+                                <a class="itm dropdown-item" href="./banking">Banking</a>
+                                <a class="itm dropdown-item" href="./it">IT</a>
                                 <a class="itm dropdown-item" href="#">Corporate</a>
                                 <a class="itm dropdown-item" href="#">Energy</a>
                                 <a class="itm dropdown-item" href="#">Litigation</a>
@@ -107,16 +107,16 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="people">People</a>
+                        <a class="nav-link" href="../people">People</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="./postphp/news">News</a>
+                        <a class="nav-link" href="../postphp/news">News</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="careers">Careers</a>
+                        <a class="nav-link" href="../careers">Careers</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="contact">Contact</a>
+                        <a class="nav-link" href="../contact">Contact</a>
                       </li>
                     </ul>
                   </div>
@@ -133,18 +133,18 @@
   <div class="about conatiner-fluid">
     <div class="m row">
       <div class="col-lg-3">
-        <img src="./img/arc.jpg" width="100%" height="100%">
+        <img src="../img/arc.jpg" width="100%" height="100%">
       </div>
       <div class="col-lg-6" style="background-color:lightblue;">
-        <h2 class="py-3">Our History</h2>
+        <h2 class="py-3">AKD Banking</h2>
         <hr style="background-color:black; border-width: 5px;">
        <p class="my-4 text-justify ">At AKD Legal, we believe in delivering on our promises. When you deal with us you will receive the highest quality advice from a trusted team of people, committed to the following values and behaviours:<p>
        
-       <p class="my-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium impedit doloremque distinctio, in delectus deleniti veniam molestiae iure possimus placeat, qui, recusandae vel veritatis debitis earum esse quidem ullam accusantium.</p>
+       <p class="my-4 text-justify">As banking lawyers we provide legal services to the financial services industry. It is common for banking lawyers to represent lenders, participants, agents, and borrowers in financial transactions. But we have reached even more. We also represent big financial institutions: litigation, collaterals procedures, NPL & debt recovery pre-evaluation, legal software development (client side), enforcements.</p>
       
-      <p class="my-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas est esse sapiente iusto dolores, enim nesciunt fuga debitis cupiditate cumque dolore sequi placeat doloremque. Perspiciatis fuga unde vel hic minus!</p>
+      <p class="my-4 text-justify">Our practice was among the first who changed hard-bitten court decisions in historical proceedings against banks, where we proved that the banks had legal right to charge Origination fees. We have recognized and stopped several attempts of deliberately diminishing loan collaterals. For our clients we are able to pre-evaluate debt recovery in percentage for various NPLs (secured or not secured), and to  manage whole process, including enforcement, until debt is closed. We are proud of doing medium consultancy work for our clients, and making efforts to reach software goals with programming software corporations.</p>
 
-      <p class="my-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit expedita reprehenderit ducimus officia velit modi, earum ipsum dolor et quisquam culpa est doloremque, omnis natus amet numquam dolorum libero corporis.</p>
+      <p class="my-4 text-justify">For complex transactions, especially for multistate or international interests we are involved in refinancings, leveraged (or debt-based) acquisition, and recapitalization financings or tender offer financings. Also we are able to make consultancy and evaluate the best banking product choice for your business in particular moment, or for particular project.</p>
      
     <div class="quotes">
       <blockquote><p class="py-4 quotation"> 
@@ -188,11 +188,11 @@
   </div>
 </footer>
 
-    <script src="./js/jquery-3.3.1.min.js"></script>
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/bootstrap.bundle.js"></script>
-    <script src="./js/index.js"></script>
-    <script src="./js/aos.js"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/aos.js"></script>
     <script>
         AOS.init();
         </script>

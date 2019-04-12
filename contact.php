@@ -79,31 +79,31 @@
                     <a class="nav-link" href="index">Home</a>
                   </li>
                   <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="about_us" id="navbarDropdownMenuLink" 
-                          aria-haspopup="true" aria-expanded="false">
-                          About Us
-                      </a>
-                      <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="itm dropdown-item" href="our_history">Our History</a>
-                          <a class="itm dropdown-item" href="our_promise">Our Promise</a>
-                      </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="service" id="navbarDropdownMenuLink" 
-                          aria-haspopup="true" aria-expanded="false">
-                          Service
-                      </a>
-                      <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="itm dropdown-item" href="banking">Banking</a>
-                          <a class="itm dropdown-item" href="it">IT</a>
-                          <a class="itm dropdown-item" href="#">Corporate</a>
-                          <a class="itm dropdown-item" href="#">Energy</a>
-                          <a class="itm dropdown-item" href="#">Litigation</a>
-                          <a class="itm dropdown-item" href="#">Arbitration</a>
-                          <a class="itm dropdown-item" href="#">Mediation/Conciliation</a>
-                          <a class="itm dropdown-item" href="#">Science</a>
-                      </div>
-                  </li>
+                            <a class="nav-link dropdown-toggle" href="about_us" id="navbarDropdownMenuLink" 
+                                aria-haspopup="true" aria-expanded="false">
+                                About Us
+                            </a>
+                            <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="itm dropdown-item" href="/subnav/our_history">Our History</a>
+                                <a class="itm dropdown-item" href="./subnav/our_promise">Our Promise</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="service" id="navbarDropdownMenuLink" 
+                                aria-haspopup="true" aria-expanded="false">
+                                Service
+                            </a>
+                            <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="itm dropdown-item" href="./subnav/banking">Banking</a>
+                                <a class="itm dropdown-item" href="./subnav/it">IT</a>
+                                <a class="itm dropdown-item" href="#">Corporate</a>
+                                <a class="itm dropdown-item" href="#">Energy</a>
+                                <a class="itm dropdown-item" href="#">Litigation</a>
+                                <a class="itm dropdown-item" href="#">Arbitration</a>
+                                <a class="itm dropdown-item" href="#">Mediation/Conciliation</a>
+                                <a class="itm dropdown-item" href="#">Science</a>
+                            </div>
+                        </li>
                   <li class="nav-item">
                   <a class="nav-link" href="people">People</a>
                 </li>           

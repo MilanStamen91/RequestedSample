@@ -80,14 +80,14 @@
                     <li class="nav-item">
                     <a class="nav-link" href="index">Home</a>
                       </li>
-                        <li class="nav-item dropdown">
+                      <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="about_us" id="navbarDropdownMenuLink" 
                                 aria-haspopup="true" aria-expanded="false">
                                 About Us
                             </a>
                             <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="itm dropdown-item" href="our_history">Our History</a>
-                                <a class="itm dropdown-item" href="our_promise">Our Promise</a>
+                                <a class="itm dropdown-item" href="/subnav/our_history">Our History</a>
+                                <a class="itm dropdown-item" href="./subnav/our_promise">Our Promise</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -96,8 +96,8 @@
                                 Service
                             </a>
                             <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="itm dropdown-item" href="banking">Banking</a>
-                                <a class="itm dropdown-item" href="it">IT</a>
+                                <a class="itm dropdown-item" href="./subnav/banking">Banking</a>
+                                <a class="itm dropdown-item" href="./subnav/it">IT</a>
                                 <a class="itm dropdown-item" href="#">Corporate</a>
                                 <a class="itm dropdown-item" href="#">Energy</a>
                                 <a class="itm dropdown-item" href="#">Litigation</a>
@@ -139,8 +139,8 @@
         <h2 class="py-3 text-center">Our Services</h2>
 
       <div class="py-4">
-        <a href="banking"><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  Banking</button></a>
-       <a href="it"><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  IT</button></a>
+        <a href="./subnav/banking"><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  Banking</button></a>
+       <a href="./subnav/it"><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  IT</button></a>
         <a href=""><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  Corporate</button></a>
        <a href=""><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  Energy</button></a>
        <a href=""><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  Litigation</button></a>

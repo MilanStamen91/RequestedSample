@@ -86,8 +86,8 @@
                                 About Us
                             </a>
                             <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="itm dropdown-item" href="our_history">Our History</a>
-                                <a class="itm dropdown-item" href="our_promise">Our Promise</a>
+                                <a class="itm dropdown-item" href="/subnav/our_history">Our History</a>
+                                <a class="itm dropdown-item" href="./subnav/our_promise">Our Promise</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -96,8 +96,8 @@
                                 Service
                             </a>
                             <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="itm dropdown-item" href="banking">Banking</a>
-                                <a class="itm dropdown-item" href="it">IT</a>
+                                <a class="itm dropdown-item" href="./subnav/banking">Banking</a>
+                                <a class="itm dropdown-item" href="./subnav/it">IT</a>
                                 <a class="itm dropdown-item" href="#">Corporate</a>
                                 <a class="itm dropdown-item" href="#">Energy</a>
                                 <a class="itm dropdown-item" href="#">Litigation</a>
@@ -139,8 +139,8 @@
         <h2 class="py-3 text-center">About Us</h2>
 
       <div class="py-4">
-        <a href="our_history"><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  Our History</button></a>
-          <a href="our_promise"><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  Our Promise</button></a>
+        <a href="./subnav/our_history"><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  Our History</button></a>
+          <a href="./subnav/our_promise"><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  Our Promise</button></a>
       </div> 
        <p class="my-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium impedit doloremque distinctio, in delectus deleniti veniam molestiae iure possimus placeat, qui, recusandae vel veritatis debitis earum esse quidem ullam accusantium.</p>
       
