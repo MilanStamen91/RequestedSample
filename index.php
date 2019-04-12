@@ -97,7 +97,7 @@
                             <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="itm dropdown-item" href="./subnav/banking">Banking</a>
                                 <a class="itm dropdown-item" href="./subnav/it">IT</a>
-                                <a class="itm dropdown-item" href="#">Corporate</a>
+                                <a class="itm dropdown-item" href="./subnav/corporate">Corporate</a>
                                 <a class="itm dropdown-item" href="#">Energy</a>
                                 <a class="itm dropdown-item" href="#">Litigation</a>
                                 <a class="itm dropdown-item" href="#">Arbitration</a>
@@ -145,7 +145,7 @@
        <div class="icon-bar">
         <a href="./subnav/banking"><i class="fas fa-file-invoice-dollar"><br>Banking</i></a> 
         <a href="./subnav/it"><i class="fas fa-satellite"><br>IT</i></a> 
-        <a href="#"><i class="fas fa-industry"><br>Corporate</i></a> 
+        <a href="./subnav/corporate"><i class="fas fa-industry"><br>Corporate</i></a> 
         <a href="#"><i class="fas fa-atom"><br>Energy</i></a> 
       </div>
     </div>

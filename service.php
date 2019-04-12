@@ -98,7 +98,7 @@
                             <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="itm dropdown-item" href="./subnav/banking">Banking</a>
                                 <a class="itm dropdown-item" href="./subnav/it">IT</a>
-                                <a class="itm dropdown-item" href="#">Corporate</a>
+                                <a class="itm dropdown-item" href="./subnav/corporate">Corporate</a>
                                 <a class="itm dropdown-item" href="#">Energy</a>
                                 <a class="itm dropdown-item" href="#">Litigation</a>
                                 <a class="itm dropdown-item" href="#">Arbitration</a>
@@ -141,7 +141,7 @@
       <div class="py-4">
         <a href="./subnav/banking"><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  Banking</button></a>
        <a href="./subnav/it"><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  IT</button></a>
-        <a href=""><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  Corporate</button></a>
+        <a href="./subnav/corporate"><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  Corporate</button></a>
        <a href=""><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  Energy</button></a>
        <a href=""><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  Litigation</button></a>
       <a href=""><button type="button" class="my-1 btn btn-primary btn-lg btn-block text-left"><i class="fas fa-chevron-circle-right"></i>  Arbitration</button></a>
