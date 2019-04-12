@@ -159,19 +159,19 @@ if( !$post->created_at || $post->deleted_at ) {
         <div id="news" class="container">
 
 <div class="row">
-<h1 class="my-5"><?php echo $post->title; ?></h1>
-  <div class="col-md-5">
-    <img src="<?php echo $post->img; ?>" class="products-details-img" />
+<h3 class="p-2 my-5"><?php echo $post->title; ?></h3>
+  <div class="col-md-12">
+    <img src="<?php echo $post->img; ?>" class="products-details-img" style="max-width:100%;height:360px;"/>
   </div>
 
-  <div class="col-md-7">
-    <h3 class="mb-5">Description</h3>
-    <p class="mb-5">
+  <div class="col-md-12">
+    <h3 class="mb-5">Description:</h3>
+    <p class="mb-5 text-justify">
     <?php echo $post->description; ?>
     </p>
 
     <div class="d-flex flex-column align-items-end">
-      <h5 class="mt-5"><?php echo $post->date; ?> Date</h5>
+      <h5 class="mt-5">Date: <?php echo $post->date; ?> </h5>
 
     </div>
   </div>
