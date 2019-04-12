@@ -55,16 +55,23 @@ class Posts {
   public function insert() {
     $stmt_insert = $this->db->prepare("
       INSERT INTO `posts`
-      (`id`, `title`, `description`, `date`)
+      (`title`, `description`, `date`)
       VALUES
-      (:id, :title, :description, :date)
+      (:title, :description, :date)
     ");
     $inserted = $stmt_insert->execute([
-      ':id' => $this->id,
       ':title' => $this->title,
       ':description' => $this->description,
       ':date' => $this->date
     ]);
+
+    if( $inserted ) {
+      $this->id = $this->db->lastInsertId();
+      $this->loadFromDb();
+      $this->handleImageUpload();
+    }
+
+    return $inserted;
   }
 
   public function update() {
