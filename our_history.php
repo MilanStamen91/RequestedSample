@@ -110,7 +110,7 @@
                         <a class="nav-link" href="people">People</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="news">News</a>
+                        <a class="nav-link" href="./postphp/news">News</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="careers">Careers</a>

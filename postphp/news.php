@@ -65,7 +65,7 @@ $post = $p->all();
           </div>
           <div class="col-12 border border-primary">
             <nav class="navm navbar navbar-expand-xl">
-              <a class="nav-link" href="index"
+              <a class="nav-link" href="../index"
                 ><img src="../img/pravo_i_vaga.jpg"
               /></a>
               <button
@@ -88,26 +88,26 @@ $post = $p->all();
                   <div class="bord">
                     <ul id="nav" class="nav navbar-nav">
                     <li class="nav-item">
-                    <a class="nav-link" href="index">Home</a>
+                    <a class="nav-link" href="../index">Home</a>
                       </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="about_us" id="navbarDropdownMenuLink" 
+                            <a class="nav-link dropdown-toggle" href="../about_us" id="navbarDropdownMenuLink" 
                                 aria-haspopup="true" aria-expanded="false">
                                 About Us
                             </a>
                             <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="itm dropdown-item" href="our_history">Our History</a>
-                                <a class="itm dropdown-item" href="our_promise">Our Promise</a>
+                                <a class="itm dropdown-item" href="../our_history">Our History</a>
+                                <a class="itm dropdown-item" href="../our_promise">Our Promise</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="service" id="navbarDropdownMenuLink" 
+                            <a class="nav-link dropdown-toggle" href="../service" id="navbarDropdownMenuLink" 
                                 aria-haspopup="true" aria-expanded="false">
                                 Service
                             </a>
                             <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="itm dropdown-item" href="#">Banking</a>
-                                <a class="itm dropdown-item" href="it">IT</a>
+                                <a class="itm dropdown-item" href="../it">IT</a>
                                 <a class="itm dropdown-item" href="#">Corporate</a>
                                 <a class="itm dropdown-item" href="#">Energy</a>
                                 <a class="itm dropdown-item" href="#">Litigation</a>
@@ -117,16 +117,16 @@ $post = $p->all();
                             </div>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="people">People</a>
+                        <a class="nav-link" href="../people">People</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="news">News</a>
+                        <a class="nav-link" href="./news">News</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="careers">Careers</a>
+                        <a class="nav-link" href="../careers">Careers</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="contact">Contact</a>
+                        <a class="nav-link" href="../contact">Contact</a>
                       </li>
                     </ul>
                   </div>
