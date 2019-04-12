@@ -95,7 +95,7 @@
                             Service
                         </a>
                         <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="itm dropdown-item" href="#">Banking</a>
+                            <a class="itm dropdown-item" href="banking">Banking</a>
                             <a class="itm dropdown-item" href="it">IT</a>
                             <a class="itm dropdown-item" href="#">Corporate</a>
                             <a class="itm dropdown-item" href="#">Energy</a>
@@ -143,7 +143,7 @@
     <div id="sicon" class="row">
       <div id="icon" class="col-xl-6">
        <div class="icon-bar">
-        <a href="#"><i class="fas fa-file-invoice-dollar"><br>Banking</i></a> 
+        <a href="banking"><i class="fas fa-file-invoice-dollar"><br>Banking</i></a> 
         <a href="it"><i class="fas fa-satellite"><br>IT</i></a> 
         <a href="#"><i class="fas fa-industry"><br>Corporate</i></a> 
         <a href="#"><i class="fas fa-atom"><br>Energy</i></a> 
