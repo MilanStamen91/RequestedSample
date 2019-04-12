@@ -4,6 +4,9 @@ require_once './Posts.class.php';
 
 $p = new Posts();
 
+$post = $p->all();
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

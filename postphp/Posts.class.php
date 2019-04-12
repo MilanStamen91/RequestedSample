@@ -41,6 +41,19 @@ class Posts {
     }
   }
 
+  public function fromPost($postId) {
+    $stmt_getFromPosts = $this->db->prepare("
+      SELECT *
+      FROM `posts`
+      WHERE `id` = :id
+      AND `deleted_at` IS NULL
+    ");
+    $stmt_getFromPosts->execute([
+      ':id' => $postId
+    ]);
+    return $stmt_getFromPosts->fetchAll();
+  }
+
   public function all() {
     $stmt_all = $this->db->prepare("
       SELECT *
