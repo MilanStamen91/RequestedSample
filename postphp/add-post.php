@@ -6,7 +6,7 @@ require_once './Posts.class.php';
 if( isset($_POST['btn_addPost']) ) {
   $newPosts = new Posts();
   $newPosts->title = $_POST['title'];
-  $newPosts->price = $_POST['date'];
+  $newPosts->date = $_POST['date'];
   $newPosts->description = $_POST['description'];
   $newPosts->image_info = $_FILES['image'];
   $newPosts->insert();
