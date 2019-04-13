@@ -85,7 +85,7 @@
                                 About Us
                             </a>
                             <div class="drp dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="itm dropdown-item" href="/subnav/our_history">Our History</a>
+                                <a class="itm dropdown-item" href="./subnav/our_history">Our History</a>
                                 <a class="itm dropdown-item" href="./subnav/our_promise">Our Promise</a>
                             </div>
                         </li>
