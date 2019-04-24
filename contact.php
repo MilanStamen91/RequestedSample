@@ -54,7 +54,7 @@
     <div class="col-12 border border-primary">
       <nav class="navm navbar navbar-expand-xl">
         <a class="nav-link" href="index"
-          ><img src="./img/pravo_i_vaga.jpg"
+          ><img src="./img/AKD1.png"
         /></a>
         <button
           id="bt"
